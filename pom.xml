@@ -50,4 +50,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
    </plugin>
   </plugins>
  </build>
+ 
+ <distributionManagement>
+	   	
+	       <repository>
+			<id>deployment</id>
+			<name>snapshot</name>
+			<url>http://localhost:8081/repository/snapshots/</url>
+	       </repository>
+	     
+	</distributionManagement>
 </project>
